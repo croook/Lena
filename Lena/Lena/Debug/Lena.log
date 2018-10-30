@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  Lena.cpp
+LINK : fatal error LNK1104: 无法打开文件“gdal_i.lib”

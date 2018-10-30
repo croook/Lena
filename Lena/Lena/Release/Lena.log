@@ -1,0 +1,15 @@
+﻿  Lena.cpp
+Lena.cpp(15): warning C4838: 从“double”转换到“float”需要收缩转换
+Lena.cpp(15): warning C4305: “初始化”: 从“double”到“float”截断
+Lena.cpp(23): warning C4838: 从“double”转换到“float”需要收缩转换
+Lena.cpp(23): warning C4305: “初始化”: 从“double”到“float”截断
+Lena.cpp(49): warning C4838: 从“double”转换到“float”需要收缩转换
+Lena.cpp(49): warning C4305: “初始化”: 从“double”到“float”截断
+    正在创建库 E:\software\Lena\Release\Lena.lib 和对象 E:\software\Lena\Release\Lena.exp
+  正在生成代码
+  2 of 449 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Lena.vcxproj -> E:\software\Lena\Release\Lena.exe
+  Lena.vcxproj -> E:\software\Lena\Release\Lena.pdb (Full PDB)
