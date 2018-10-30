@@ -36,7 +36,7 @@ int kernel4[3][3] = {
 
 int kernel5[3][3] = {
 	-1, -1, 0,
-	-1, 0, -1,
+	-1, 0, 1,
 	0, 1, 1
 };
 
@@ -50,7 +50,7 @@ float kernel6[5][5] = {
 
 GByte **buff , **buff2;
 
-int N = 6;
+int N = 5;
 int cou[6] = { 1,2,1,1,1,2 };
 
 int calc(int row, int col,int buffnum,int tmpXlen) {
@@ -59,10 +59,11 @@ int calc(int row, int col,int buffnum,int tmpXlen) {
 
 	for (int i = 0; i < 2*n+1; i++) {
 		for (int j = 0; j < 2*n+1; j++) {
-			sum += buff[buffnum][(row-n+i)*tmpXlen+(col-n+j)] * kernel6[i][j];
+			sum += buff[buffnum][(row-n+i)*tmpXlen+(col-n+j)] * kernel5[i][j];
 		}
 	}
 
+	//sum += 128;
 	if (sum < 0) sum = 0;
 	else if (sum > 255) sum = 255;
 	return int(sum);
